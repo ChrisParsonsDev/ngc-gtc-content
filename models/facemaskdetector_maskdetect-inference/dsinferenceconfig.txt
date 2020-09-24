@@ -16,7 +16,7 @@ labelfile-path=./labels.txt
 model-engine-file=./facemaskdetector.engine
 # DLA Engine File
 # model-engine-file=/home/nvidia/detectnet_v2_models/detectnet_4K-fddb-12/resnet18_RGB960_detector_fddb_12_int8.etlt_b1_dla0_int8.engine
-input-dims=3;960;544;0
+input-dims=3;480;272;0
 uff-input-blob-name=input_1
 batch-size=1
 model-color-format=0
