@@ -28,27 +28,11 @@ cluster-mode=1
 interval=0
 gie-unique-id=1
 is-classifier=0
-classifier-threshold=0.9
+classifier-threshold=0.7
 output-blob-names=output_bbox/BiasAdd;output_cov/Sigmoid
 
-[class-attrs-0]
-pre-cluster-threshold=0.3
-group-threshold=1
-eps=0.3
-#minBoxes=1
-detected-min-w=0
-detected-min-h=0
-detected-max-w=0
-detected-max-h=0
-
-
-[class-attrs-1]
-pre-cluster-threshold=0.3
-group-threshold=1
-eps=0.3
-#minBoxes=1
-detected-min-w=0
-detected-min-h=0
-detected-max-w=0
-detected-max-h=0
+[class-attrs-all]
+pre-cluster-threshold=0.4
+eps=0.7
+minBoxes=1
 
